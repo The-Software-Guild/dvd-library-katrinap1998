@@ -11,8 +11,6 @@ import java.util.List;
 
 public class DVDController {
     private UserIO io = new UserIOConsoleImpl();
-//    private DVDView view = new DVDView();
-//    private DVDDao dao = new DVDDaoFileImpl();
 
     private DVDView view;
     private DVDDao dao;
@@ -99,7 +97,6 @@ public class DVDController {
         }
     }
 
-
     private int getMenuSelection(){
         return view.printMenuAndGetSelection();
     }
@@ -107,7 +104,6 @@ public class DVDController {
     private int getEditMenuSelection(){
         return view.printEditMenuAndGetSelection();
     }
-
 
     private void createDVD() throws DVDDaoException{
         view.displayCreateDVDBanner();

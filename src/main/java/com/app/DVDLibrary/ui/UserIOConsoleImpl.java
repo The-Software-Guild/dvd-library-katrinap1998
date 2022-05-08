@@ -27,7 +27,7 @@ public class UserIOConsoleImpl implements UserIO{
                 // Get the input line, and try and parse
                 num = Integer.parseInt(stringValue);
                 break;
-//                invalidInput = false; // or you can use 'break;'
+//                invalidInput = false;
             } catch (NumberFormatException e) {
                 this.print("Input error. Please try again.");
             }

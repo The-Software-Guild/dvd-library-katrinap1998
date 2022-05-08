@@ -6,7 +6,7 @@ import com.app.DVDLibrary.dto.DVD;
 import java.util.List;
 
 public class DVDView {
-//    private UserIO io = new UserIOConsoleImpl();
+
     private UserIO io;
 
     public DVDView(UserIO io){

@@ -2,7 +2,6 @@ package com.app.DVDLibrary.dto;
 
 public class DVD {
 
-//    private String DVDId;
     private String title;
     private String director;
     private String studio;
@@ -15,10 +14,6 @@ public class DVD {
     }
 
     // getters
-//    public String getDVDId(){
-//        return DVDId;
-//    }
-
     public String getTitle(){
         return title;
     }
